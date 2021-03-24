@@ -60,8 +60,11 @@ button:active {
 }
 
 .answers ol {
-  text-align:center;
   width: 90%;
   margin: 0 auto;
   font-size:2vw;
+}
+
+.answers {
+  text-align:center;
 }
