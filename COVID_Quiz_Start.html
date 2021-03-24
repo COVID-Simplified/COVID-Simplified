@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="Quiz_style.css">
     <script src="responsiveNav.js"></script>
     <script src="QuizCheck.js" defer></script>
+    <script>
+      function scrollWin() {
+        window.scrollBy(0, 200);
+      };
+    </script>
   </head>
   <body>
 
@@ -383,7 +388,7 @@
         </section>
       </div>
         <section class="question_answers" id="submition">
-          <button type="submit" value="Submit" title="Submit">Submit</button>
+          <button type="submit" value="Submit" title="Submit" ononclick="scrollWin()">Submit</button>
         </section>
       </form>
     <br>
