@@ -27,7 +27,6 @@ document.getElementById("quiz").onsubmit=function() {
 corrQuestions = result/5;
 result2 = `You got ${corrQuestions}/20 questions correct!`;
 document.getElementById("grade2").innerHTML = result2;
-document.getElementById("answer_key").innerHTML = "Here is the answer key to check your answers";
 
 return false; // required to not refresh the page; just leave this here
 } //this ends the submit function
