@@ -57,6 +57,7 @@ button {
 
 button:active {
   background-color: lightgray;
+  scroll-behavior: smooth;
 }
 
 .answers ol {
