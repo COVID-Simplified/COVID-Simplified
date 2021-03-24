@@ -305,7 +305,7 @@ td {
   background: gray;
 }
 
-#answers {
+#answers ol li {
   font-size: 2vw;
   text-align: center;
 }
