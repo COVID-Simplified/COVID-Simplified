@@ -59,7 +59,7 @@ button:active {
   background-color: lightgray;
 }
 
-.answers ul {
+.answers ol {
   width: 90%;
   margin: 0 auto;
   font-size:2vw;
