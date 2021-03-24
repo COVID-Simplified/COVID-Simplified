@@ -304,3 +304,8 @@ th, td {
 td {
   background: gray;
 }
+
+#answers {
+  font-size: 2vw;
+}
+
